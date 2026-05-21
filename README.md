@@ -25,19 +25,19 @@
 ## 目录结构
 
 moudle_ifly/
-├── app.py              # Flask 主应用，API 服务入口
-├── ifly.py             # 讯飞 API 封装：问答、嵌入、语音合成
-├── knowledge.py        # 知识库管理：文档解析、向量入库、检索
-├── cli.py              # 命令行工具：知识库灌库入口
-├── static/
-│   └── index.html      # 前端聊天界面
-├── data/               # 知识库文档目录 (PDF/DOCX)
-├── mod/                # 本地嵌入模型 (需单独下载)
-├── chroma_data/        # ChromaDB 数据存储 (可重新生成)
-├── .env                # 环境变量配置 (不提交)
-├── .gitignore
-├── requirements.txt    # Python 依赖
-└── README.md
+ app.py              # Flask 主应用，API 服务入口
+ ifly.py             # 讯飞 API 封装：问答、嵌入、语音合成
+ knowledge.py        # 知识库管理：文档解析、向量入库、检索
+ cli.py              # 命令行工具：知识库灌库入口
+ static/
+    index.html      # 前端聊天界面
+ data/               # 知识库文档目录 (PDF/DOCX)
+ mod/                # 本地嵌入模型 (需单独下载)
+ chroma_data/        # ChromaDB 数据存储 (可重新生成)
+ .env                # 环境变量配置 (不提交)
+ .gitignore
+ requirements.txt    # Python 依赖
+ README.md
 
 ## 环境要求
 
